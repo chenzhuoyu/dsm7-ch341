@@ -81,7 +81,7 @@ sudo ln -s /usr/bin/kmod /sbin/depmod
 3. Register your driver to the module dependency registry.
 
 ```bash
-sudo echo 'ch341:' >> /dev/modules/modules.dep
+sudo echo 'ch341:' >> /lib/modules/modules.dep
 sudo depmod
 ```
 
