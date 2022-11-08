@@ -87,7 +87,7 @@ sudo depmod
 
 Ignore any warnings the `depmod` command might generate.
 
-4. Create a `.conf` file in `/etc/modules-load.d` with content:
+4. Create a `.conf` file in `/lib/modules-load.d` with content:
 
 File name is irrelevant, as long as it has the `.conf` extension, but conventionally it should be `70-usb-serial.conf`.
 
